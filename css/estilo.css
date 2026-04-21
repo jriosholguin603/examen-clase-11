@@ -23,6 +23,7 @@ header {
     height: 60px;
     background-color: #f1c40f;
     border-radius: 50%;
+    background-image: url(../img/caf.jpg);
 }
 
 .menu-nav {
@@ -45,7 +46,7 @@ header {
     justify-content: center; 
     align-items: center;     
     height: 400px;
-    background-image: url(url¿../img/img.jpg); 
+    background-image: url(../img/log.jpg);
     background-size: cover;
     background-position: center;
     text-align: center;
@@ -82,9 +83,21 @@ header {
     background-color: #d1e1f1;
     flex-wrap: wrap;
     gap: 20px;
+    background: #833AB4;
+background: linear-gradient(90deg,rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 0%, rgba(253, 66, 39, 1) 35%, rgba(252, 176, 69, 1) 100%);
 }
 
-.tarjeta {
+
+.cafe { background-color: #d35400;
+    width: 280px;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    transition: transform 0.4s ease;
+    
+}
+.torta { background-color: #f1c40f; 
     width: 280px;
     padding: 20px;
     border-radius: 8px;
@@ -92,19 +105,24 @@ header {
     box-shadow: 0 4px 10px rgba(0,0,0,0.2);
     transition: transform 0.4s ease;
 }
-
-.cafe { background-color: #d35400; }
-.torta { background-color: #f1c40f; }
-.panaderia { background-color: #b7950b; }
+.panaderia { background-color: #b7950b;
+    width: 280px;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    transition: transform 0.4s ease;
+ }
 
 .tarjeta h3 {
     background-color: #3498db;
     color: white;
     padding: 5px;
     margin-bottom: 15px;
+    
 }
 
-.caja-foto {
+.cafe-foto {
     background-color: #3498db;
     height: 120px;
     display: flex;
@@ -113,7 +131,32 @@ header {
     color: white;
     margin-bottom: 15px;
     transition: opacity 0.3s ease;
+    background-image: url(../img/cafe.jpg);
 }
+
+.torta-foto {
+    background-color: #3498db;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+    transition: opacity 0.3s ease;
+    background-image: url(../img/pas.jpg);
+}
+
+.pan-foto {
+    background-color: #3498db;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+    transition: opacity 0.3s ease;
+    background-image: url(../img/pan.jpg);
+}
+
+
 
 .caja-foto:hover {
     opacity: 0.7;
