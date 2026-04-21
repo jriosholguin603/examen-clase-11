@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f0f0f0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white; 
+    padding: 20px 50px;
+    border-bottom: 2px solid #3498db;
+}
+
+.circulo-logo {
+    width: 60px;
+    height: 60px;
+    background-color: #f1c40f;
+    border-radius: 50%;
+}
+
+.menu-nav {
+    display: flex;
+    gap: 15px;
+}
+
+.menu-nav a {
+    text-decoration: none;
+    background-color: #e67e22;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.hero {
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    height: 400px;
+    background-image: url(url¿../img/img.jpg); 
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+.hero h1 {
+    background-color: #3498db;
+    color: white;
+    padding: 15px 50px;
+    margin-bottom: 20px;
+    border: none;
+}
+
+.btn-hero {
+    width: auto;
+    padding: 15px 30px;
+    background-color: #2980b9;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.btn-hero:hover {
+    transform: scale(1.1); 
+    background-color: #1a5276;
+}
+
+.contenedor-productos {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 50px 20px;
+    background-color: #d1e1f1;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.tarjeta {
+    width: 280px;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    transition: transform 0.4s ease;
+}
+
+.cafe { background-color: #d35400; }
+.torta { background-color: #f1c40f; }
+.panaderia { background-color: #b7950b; }
+
+.tarjeta h3 {
+    background-color: #3498db;
+    color: white;
+    padding: 5px;
+    margin-bottom: 15px;
+}
+
+.caja-foto {
+    background-color: #3498db;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-bottom: 15px;
+    transition: opacity 0.3s ease;
+}
+
+.caja-foto:hover {
+    opacity: 0.7;
+}
+
+.btn-comprar {
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    background-color: #3498db;
+    color: white;
+    font-weight: bold;
+    transition: transform 0.3s ease;
+}
+
+.btn-comprar:hover {
+    transform: translateY(-10px);
+}
+
+footer {
+    background-color: #111;
+    color: white;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-item {
+    width: 80px;
+    height: 40px;
+    background-color: rgba(52, 152, 219, 0.3);
+    border: 1px solid white;
+}
+
+.redes {
+    display: flex;
+    gap: 10px;
+}
